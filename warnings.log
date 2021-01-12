@@ -1,0 +1,20 @@
+yadro.cpp: In member function ‘std::vector<One_Motion> Table::pos_moves(FigColor)’:
+yadro.cpp:618:24: warning: enumeration value ‘none’ not handled in switch [-Wswitch]
+                 switch (get(i, j).type)
+                        ^
+graph_chess.cpp: In member function ‘void My_Chessboard::selection(int, int)’:
+graph_chess.cpp:454:12: warning: enumeration value ‘none’ not handled in switch [-Wswitch]
+     switch (desk.get(x, y).type)
+            ^
+graph_chess.cpp: In member function ‘End_Return My_Chessboard::play()’:
+graph_chess.cpp:102:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+graph_chess.cpp: In member function ‘End_Return My_Chessboard::play_bot(FigColor)’:
+graph_chess.cpp:204:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+graph_chess.cpp: In member function ‘bool Chessboard::recovery_button()’:
+graph_chess.cpp:562:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
